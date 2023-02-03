@@ -16,7 +16,7 @@ const Calci = () => {
     }
 
     const changeOutput = (e) =>{
-      setStore(eval(store));
+      setStore(eval(store).toString());
     }
     const resetAll = () =>{
       setStore('');
